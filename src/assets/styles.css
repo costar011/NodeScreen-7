@@ -3,3 +3,28 @@
 body {
   overflow: hidden;
 }
+
+.app {
+  display: flex;
+}
+
+.app .app__left {
+  width: 500px;
+  height: 100vh;
+
+  background-color: silver;
+}
+
+.app .app__main {
+  width: 510px;
+  height: 100vh;
+
+  background-color: skyblue;
+}
+
+.app .app__right {
+  width: 500px;
+  height: 100vh;
+
+  background-color: slateblue;
+}
